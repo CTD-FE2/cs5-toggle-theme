@@ -32,6 +32,9 @@ body .item {
 
 body .item img {
   width: 100%;
+  height: 430px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 body .item h2 {
