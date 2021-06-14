@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  background-color: #dbdbdb;
+}
+
+body h1 {
+  background-color: white;
+  border-bottom: 1px solid lightgrey;
+  color: grey;
+  padding: .5em 1em;
+  -webkit-transition: color 300ms linear, background-color 300ms linear;
+  transition: color 300ms linear, background-color 300ms linear;
+}
+
+body .item {
+  background-color: white;
+  border: 1px solid lightgray;
+  width: 30em;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 1.5em;
+  margin-bottom: 1em;
+  border-radius: 5px;
+  -webkit-transition: color 300ms linear, background-color 300ms linear;
+  transition: color 300ms linear, background-color 300ms linear;
+}
+
+body .item img {
+  width: 100%;
+}
+
+body .item h2 {
+  font-size: 1em;
+  margin-bottom: .2em;
+}
+
+body button {
+  background-color: grey;
+  color: white;
+  margin: 30px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+}
+
+body .contenedor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 80%;
+  margin: 2em 10%;
+}
+
+body .btn-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.dark {
+  background-color: #272727;
+}
+
+.dark h1 {
+  background-color: #131313;
+  color: #aaaaaa;
+  border-color: black;
+}
+
+.dark .item {
+  background-color: #131313;
+  border-color: black;
+}
+
+.dark .item h2, .dark .item p {
+  color: #e6e6e6;
+}
+
+.dark button {
+  background-color: whitesmoke;
+  color: black;
+}
+/*# sourceMappingURL=styles.css.map */

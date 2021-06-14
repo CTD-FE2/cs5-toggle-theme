@@ -1,0 +1,21 @@
+.dark {
+    background-color: rgb(39, 39, 39);
+    h1 {
+        background-color: rgb(19, 19, 19);
+        color: rgb(170, 170, 170);
+        border-color: black;
+    }
+    
+    .item {
+        background-color: rgb(19, 19, 19);
+        border-color: black;
+        h2, p {
+            color: rgb(230, 230, 230);
+        }
+    }
+
+    button {
+        background-color: whitesmoke;
+        color: black;
+    }
+}
